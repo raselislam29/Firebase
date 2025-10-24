@@ -1,0 +1,38 @@
+.scene-root {
+    -fx-background-color: linear-gradient(to bottom, #f8fbff, #eef2f7);
+}
+
+.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #223;
+}
+
+.subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #334;
+}
+
+.status {
+    -fx-text-fill: #2a6f37;
+}
+
+.button {
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #8ec5ff;
+    -fx-background-color: #e8f3ff;
+}
+
+.button:hover {
+    -fx-background-color: #d9ecff;
+}
+
+.text-field, .password-field, .text-area {
+    -fx-background-color: white;
+    -fx-background-radius: 6;
+    -fx-border-color: #c8d6e5;
+    -fx-border-radius: 6;
+    -fx-padding: 6 8 6 8;
+}

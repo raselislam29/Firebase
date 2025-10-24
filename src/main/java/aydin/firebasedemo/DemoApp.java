@@ -34,11 +34,13 @@ public class DemoApp extends Application {
     private final FirestoreContext contxtFirebase = new FirestoreContext();
 
     @Override
+
     public void start(Stage stage) throws IOException {
         fstore = contxtFirebase.firebase();
         fauth = FirebaseAuth.getInstance();
 
-        scene = new Scene(loadFXML("primary"), 640, 480);
+        scene = new Scene(loadFXML("welcome"), 640, 480); // start at Welcome
+        stage.setTitle("Firebase Demo");
         stage.setScene(scene);
         stage.show();
     }
